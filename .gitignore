@@ -1,0 +1,22 @@
+
+# Large videos
+*.mp4
+*.mov
+*.avi
+
+# Private keys and credentials
+*.pem
+*.key
+*.env
+*.env.*
+!.env.example
+credentials
+secrets/
+.aws/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Logs
+*.log
